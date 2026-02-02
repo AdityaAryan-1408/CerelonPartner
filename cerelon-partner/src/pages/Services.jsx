@@ -17,7 +17,7 @@ const Services = () => {
                 <div className="w-12 h-12 bg-slate-100 dark:bg-slate-800 text-slate-900 dark:text-white group-hover:bg-emerald-600 group-hover:text-white flex items-center justify-center mb-6 transition-colors">
                   <Code2 />
                 </div>
-                <h2 className="text-2xl font-black uppercase tracking-tighter mb-4 text-slate-950 dark:text-white">Technology Solutions</h2>
+                <h2 className="text-2xl font-black uppercase tracking-tighter mb-4 text-slate-950 dark:text-white">Software Solutions</h2>
                 <p className="text-sm text-slate-500 dark:text-slate-400 mb-6">Building the infrastructure that powers modern business operations.</p>
               </div>
               <div className="md:w-2/3 grid grid-cols-1 sm:grid-cols-2 gap-8">
