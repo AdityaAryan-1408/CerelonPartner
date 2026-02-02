@@ -1,5 +1,5 @@
 import React from 'react';
-import { MoveUpRight, Code2, Palette, Globe, ArrowRight, ShieldCheck } from 'lucide-react';
+import { MoveUpRight, Code2, Palette, Globe, ArrowRight } from 'lucide-react';
 import Button from '../components/ui/Button';
 
 const Home = ({ navigate }) => {
@@ -15,7 +15,7 @@ const Home = ({ navigate }) => {
                 <span className="text-xs font-black tracking-[0.3em] uppercase">Business Consultancy Partner</span>
               </div>
               <h1 className="text-6xl md:text-8xl font-black text-slate-950 dark:text-white leading-[0.9] tracking-tighter mb-8">
-                SCALING <span className="text-emerald-600 dark:text-emerald-500">FRONTIERS</span><br /> 
+                SCALING <span className="text-emerald-600 dark:text-emerald-500">FRONTIERS</span><br />
                 THROUGH PRECISION.
               </h1>
               <p className="text-xl text-slate-500 dark:text-slate-400 max-w-xl leading-relaxed mb-10 font-medium">
@@ -45,24 +45,24 @@ const Home = ({ navigate }) => {
         <div className="max-w-7xl mx-auto px-6 lg:px-8">
           <div className="grid grid-cols-1 lg:grid-cols-3 gap-0 border border-slate-200 dark:border-slate-800">
             {[
-              { 
-                title: "Technology", 
-                subtitle: "Solutions", 
-                icon: <Code2 />, 
+              {
+                title: "Technology",
+                subtitle: "Solutions",
+                icon: <Code2 />,
                 desc: "Software, web, and app development to automate your business core.",
                 items: ["Software Solutions", "Web Dev", "App Dev", "Automation"]
               },
-              { 
-                title: "Digital &", 
-                subtitle: "Creative", 
-                icon: <Palette />, 
+              {
+                title: "Digital &",
+                subtitle: "Creative",
+                icon: <Palette />,
                 desc: "Performance marketing and branding that commands attention.",
                 items: ["Digital Marketing", "Social Media", "Branding", "SEO"]
               },
-              { 
-                title: "Export", 
-                subtitle: "Support", 
-                icon: <Globe />, 
+              {
+                title: "Export",
+                subtitle: "Support",
+                icon: <Globe />,
                 desc: "Specialized communication and deal coordination for global growth.",
                 items: ["Buyer Comms", "Lead Follow-up", "Deal Support", "Process Aid"]
               }
@@ -84,7 +84,7 @@ const Home = ({ navigate }) => {
                     </li>
                   ))}
                 </ul>
-                <button 
+                <button
                   onClick={() => navigate('services')}
                   className="text-xs font-black uppercase tracking-[0.2em] flex items-center text-slate-900 dark:text-white group-hover:text-white"
                 >
@@ -111,7 +111,7 @@ const Home = ({ navigate }) => {
                   { title: "SMEs", text: "Growing businesses automating processes to scale without friction." }
                 ].map((item, idx) => (
                   <div key={idx} className="flex group">
-                    <div className="mr-6 text-2xl font-black text-slate-200 dark:text-slate-800 group-hover:text-emerald-600 dark:group-hover:text-emerald-500 transition-colors">0{idx+1}</div>
+                    <div className="mr-6 text-2xl font-black text-slate-200 dark:text-slate-800 group-hover:text-emerald-600 dark:group-hover:text-emerald-500 transition-colors">0{idx + 1}</div>
                     <div>
                       <h4 className="text-lg font-bold text-slate-950 dark:text-white mb-1">{item.title}</h4>
                       <p className="text-slate-500 dark:text-slate-400 text-sm leading-relaxed">{item.text}</p>
@@ -122,7 +122,7 @@ const Home = ({ navigate }) => {
             </div>
 
             <div className="bg-slate-950 dark:bg-slate-900 border dark:border-slate-800 p-12 flex flex-col justify-center">
-              <ShieldCheck className="text-emerald-500 w-16 h-16 mb-8" />
+              <img src="/1.png" alt="Cerelon Standard" className="w-16 h-16 mb-8 object-contain" />
               <h3 className="text-3xl font-black text-white mb-6 tracking-tighter">The Cerelon Standard</h3>
               <p className="text-slate-400 leading-relaxed mb-8 font-medium">
                 We operate on a model of absolute confidentiality and process reliability. No exaggerated claims. No fake testimonials. Just outcome-focused growth.
