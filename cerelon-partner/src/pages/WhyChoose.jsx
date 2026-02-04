@@ -15,7 +15,7 @@ const WhyChoose = () => {
             { t: "Process-Driven", d: "We replace guessing with established frameworks that ensure predictable growth patterns." },
             { t: "Confidentiality", d: "Strict data handling protocols. Your competitive advantages are safe with us." },
             { t: "Multi-Domain", d: "Single-point coordination for tech, creative, and export support." },
-            { t: "Dedicated Comms", d: "Professional representation that builds buyer trust instantly." },
+            { t: "Dedicated Communication", d: "Professional representation that builds buyer trust instantly." },
             { t: "Scalable Model", d: "Our support model expands in sync with your business growth phase." },
             { t: "Quality Oriented", d: "Driven by management principles aiming for ISO 9001 certification." },
             { t: "Transparency", d: "We support our customers before and after service." }
