@@ -46,7 +46,7 @@ const Home = ({ navigate }) => {
           <div className="grid grid-cols-1 lg:grid-cols-3 gap-0 border border-slate-200 dark:border-slate-800">
             {[
               {
-                title: "Technology",
+                title: "Software",
                 subtitle: "Solutions",
                 icon: <Code2 />,
                 desc: "Software, web, and app development to automate your business core.",

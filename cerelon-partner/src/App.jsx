@@ -59,7 +59,7 @@ const App = () => {
       <Footer navigate={navigate} />
 
       <a 
-        href="https://wa.me/YOUR_NUMBER_HERE"
+        href="https://wa.me/7282001593"
         className="fixed bottom-8 right-8 w-14 h-14 bg-emerald-600 text-white flex items-center justify-center shadow-2xl hover:scale-110 transition-transform z-50 rounded-full"
       >
         <MessageSquare className="w-6 h-6" />

@@ -39,7 +39,7 @@ const Footer = ({ navigate }) => {
         </div>
 
         <div className="pt-8 border-t border-slate-900 flex flex-col md:flex-row justify-between items-center">
-          <p className="text-[10px] text-slate-600 uppercase font-black tracking-[0.2em]">© {new Date().getFullYear()} Cerelon Partner. No Fake Claims.</p>
+          <p className="text-[10px] text-slate-600 uppercase font-black tracking-[0.2em]">&copy; {new Date().getFullYear()} Cerelon Partner. No Fake Claims.</p>
           <div className="flex space-x-8 mt-6 md:mt-0 text-[10px] font-black uppercase tracking-[0.2em] text-slate-600">
             <span>SSL Secure</span>
             <span>Fast Loading</span>
