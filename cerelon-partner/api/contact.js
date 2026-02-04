@@ -39,12 +39,8 @@ export default async function handler(req, res) {
       },
     });
 
-    // --- TASK 2: SEND EMAIL NOTIFICATION ---
-    // Note: 'onboarding@resend.dev' is the default free testing sender. 
-    // Once you add the client's domain to Resend, change this to 'leads@cerelonpartner.com'
-    
     await resend.emails.send({
-      from: 'Cerelon Leads <onboarding@resend.dev>',
+      from: 'Cerelon Leads <contact@cerelonpartner.com>',
       to: 'contact@cerelonpartner.com', 
       subject: `New Lead: ${name} (${company})`,
       html: `
